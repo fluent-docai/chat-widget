@@ -1,0 +1,31 @@
+name: Create Release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Extract version from commit and create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(git log -1 --pretty=format:"%s" | grep -oP 'release: \Kv[0-9]+\.[0-9]+\.[0-9]+[^ ]*')
+          if [ -z "$VERSION" ]; then
+            echo "No version found in commit message, skipping release"
+            exit 0
+          fi
+          if git rev-parse "$VERSION" >/dev/null 2>&1; then
+            echo "Tag $VERSION already exists, skipping"
+            exit 0
+          fi
+          gh release create "$VERSION" --generate-notes --title "$VERSION"
+          echo "Created release $VERSION"
