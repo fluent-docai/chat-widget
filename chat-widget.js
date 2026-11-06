@@ -1,6 +1,6 @@
-/*! FluentChat chat-widget v2.48.0-dev.45a0d96 */
+/*! FluentChat chat-widget v2.48.0-dev.6043a7c */
 
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="264756b2-98fa-57b4-903d-4ff9bd912f4a")}catch(e){}}();
-export{bS as FluentChat,bT as FluentChatWidget,bU as destroyWidget,bV as injectWidget}from"./chunks/widget-xM4ukz3p.js";
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="1101a8a3-95a9-58e9-9d61-75974a21d431")}catch(e){}}();
+export{bS as FluentChat,bT as FluentChatWidget,bU as destroyWidget,bV as injectWidget}from"./chunks/widget-DfiIh47A.js";
 
-//# debugId=264756b2-98fa-57b4-903d-4ff9bd912f4a
+//# debugId=1101a8a3-95a9-58e9-9d61-75974a21d431
