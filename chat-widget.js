@@ -1,6 +1,6 @@
-/*! FluentChat chat-widget v3.2.1-dev.79b9146 */
+/*! FluentChat chat-widget v3.3.0-dev.d2b276f */
 
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="570aea8d-16ec-5a3b-bb43-22c3b8131b9d")}catch(e){}}();
-export{F as FluentChat,a as FluentChatWidget,d as destroyWidget,i as injectWidget}from"./chunks/widget-sVRvHNZ4.js";import"./chunks/tailwind-DaxHTc6e.js";
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="0534be7f-002a-5b82-8f93-cd86e39c0dc6")}catch(e){}}();
+export{F as FluentChat,a as FluentChatWidget,d as destroyWidget,i as injectWidget}from"./chunks/widget-BEA6usKc.js";import"./chunks/tailwind-Du1yCL9y.js";
 
-//# debugId=570aea8d-16ec-5a3b-bb43-22c3b8131b9d
+//# debugId=0534be7f-002a-5b82-8f93-cd86e39c0dc6
