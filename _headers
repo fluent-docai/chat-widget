@@ -1,0 +1,10 @@
+# Cloudflare static-asset headers (widget.fluentchat.ai / widget-staging.fluentchat.ai).
+# Entry files keep fixed URLs, so browsers revalidate them on every load (a 304 when
+# unchanged) and always run the latest release. Chunk names change with their content.
+/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: no-cache
+
+/chunks/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
